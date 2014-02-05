@@ -28,7 +28,7 @@ public partial class test_email : System.Web.UI.Page
         Msg.From = new MailAddress(txtFromEmail.Text);
         Msg.Sender = new MailAddress(txtFromEmail.Text);
         Msg.To.Add(new MailAddress(txtToEmail.Text));
-        //Msg.Bcc.Add(new MailAddress("stenly@webcitypress.com", WebsiteName + " AutoEmail"));
+        //Msg.Bcc.Add(new MailAddress("underthex@hotmail.com", WebsiteName + " AutoEmail"));
         Msg.IsBodyHtml = false;
 
         string strEmail = "";
